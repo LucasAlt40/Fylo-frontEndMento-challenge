@@ -1,0 +1,37 @@
+@import url("../../global.css");
+
+.infos {
+  width: 450px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  margin: 7rem 4rem 0 4rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.infos img {
+  margin-bottom: 3rem;
+}
+
+.container-texts-infos {
+  text-align: center;
+}
+
+.container-texts-infos h2 {
+  font-family: "Raleway";
+}
+
+.container-texts-infos p {
+  font-family: "Open sans";
+  color: #c8c7c7f0;
+  margin: 1rem;
+}
+
+@media (max-width: 900px) {
+
+  .infos {
+    width: 100%;
+    margin: 7rem 0 0 0;
+  }
+}

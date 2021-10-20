@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+:root {
+  /* Primary Colors */
+  --dark-blue-inputs: hsl(217, 28%, 15%);
+  --dark-blue-main: hsl(218, 28%, 13%);
+  --dark-blue-footer: hsl(216, 53%, 9%);
+  --dark-blue-testimonials: hsl(219, 30%, 18%);
+
+  /* Accents */
+  --cyan: hsl(176, 68%, 64%);
+  --blue: hsl(198, 60%, 50%);
+  --red: hsl(0, 100%, 63%);
+}
+
+body {
+  background: linear-gradient(
+    0deg,
+    var(--dark-blue-main) 75%,
+    var(--dark-blue-inputs) 25%
+  );
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+@media (max-width: 500px) {
+  body {
+    background: linear-gradient(
+      0deg,
+      var(--dark-blue-main) 91%,
+      var(--dark-blue-inputs) 9%
+    );
+  }
+}

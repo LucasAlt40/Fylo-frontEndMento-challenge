@@ -1,0 +1,85 @@
+@import url("../../global.css");
+
+.StayProductive-container {
+  font-family: "Raleway";
+
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 10rem;
+}
+
+.StayProductive-container img {
+  width: 550px;
+}
+
+.description {
+  margin: 3rem;
+
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.description h2 {
+  font-size: 40px;
+}
+
+.description P {
+  margin-top: 1rem;
+  font-size: 16px;
+  color: #c8c7c7f0;
+}
+
+.description a {
+  margin-right: 17.4rem;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+  border-bottom: 2px solid var(--cyan);
+  font-family: "Open sans";
+}
+
+.description i {
+  margin-left: 0.3rem;
+}
+
+.description a,
+.description i {
+  color: var(--cyan);
+}
+
+.description a:hover {
+  color: white;
+  border-bottom: 2px solid #FFF;
+}
+
+.description a:hover i {
+  color: #FFF;
+}
+
+@media (max-width: 900px) {
+  .StayProductive-container {
+    flex-direction: column;
+  }
+
+  .StayProductive-container img {
+    width: 100%;
+  }
+
+  .description {
+    width: 350px;
+  }
+
+  .description h2 {
+    font-size: 21px;
+  }
+
+  .description a {
+    margin-right: 10.5rem;
+  }
+}

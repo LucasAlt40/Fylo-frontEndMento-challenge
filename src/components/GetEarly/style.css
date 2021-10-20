@@ -1,0 +1,93 @@
+@import url("../../global.css");
+
+.input-container {
+  position: absolute;
+  left: 0;
+  right: 0;
+
+  width: 850px;
+  height: 320px;
+
+  margin: auto;
+  margin-top: 8rem;
+
+  border-radius: 8px;
+  background: var(--dark-blue-inputs);
+  font-family: "Raleway", sans-serif;
+
+  box-shadow: 6px 5px 15px 5px rgba(0, 0, 0, 0.32);
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  text-align: center;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input p {
+  margin: 2rem 0 2rem 0;
+  font-family: "Open sans", sans-serif;
+  font-size: 14px;
+}
+
+.input input,
+.input button {
+  margin: 1rem;
+  height: 50px;
+  border: none;
+  margin-top: 2rem;
+  border-radius: 80px;
+}
+
+.input input {
+  width: 500px;
+  color: #000;
+  text-align: center;
+  outline: none;
+  font-family: "Open sans", sans-serif;
+}
+
+.input button {
+  width: 200px;
+  font-size: 12px;
+  background: linear-gradient(40deg, var(--cyan), var(--blue));
+}
+
+.input button:hover {
+  background: var(--cyan);
+}
+
+@media (max-width: 900px) {
+  .input-container {
+
+    width: 350px;
+    height: 420px;
+  }
+
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .input p {
+    margin: 2rem 0 2rem 0;
+    font-family: "Open sans", sans-serif;
+    font-size: 14px;
+  }
+
+  .input input,
+  .input button {
+    width: 300px;
+  }
+}

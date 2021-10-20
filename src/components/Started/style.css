@@ -1,0 +1,77 @@
+@import url("../../global.css");
+
+.ilustration {
+  width: 550px;
+  height: 450px;
+}
+
+.container {
+  margin-top: 6rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Raleway";
+
+  background-image: url("../../assets/bg-curvy-mobile.svg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: 0 180px;
+}
+
+.container-texts {
+  width: 450px;
+  margin-top: 2rem;
+}
+
+.container-texts h2 {
+  text-align: center;
+}
+
+.container-texts p {
+  margin: 1rem 0 1rem 0;
+  text-align: center;
+  font-size: 16px;
+  color: #c8c7c7f0;
+  font-family: "Open sans";
+}
+
+.container button {
+  margin-top: 1rem;
+
+  width: 250px;
+  height: 50px;
+
+  border: none;
+  border-radius: 32px;
+
+  font-weight: 700;
+  background: linear-gradient(50deg, var(--cyan), var(--blue));
+
+  transition: all 1s ease-in-out;
+}
+
+.container button:hover {
+  background: var(--cyan);
+}
+
+@media (max-width: 900px) {
+  .ilustration {
+    width: 90%;
+    height: 250px;
+  }
+
+  .container {
+    margin-top: 1rem;
+
+    background-image: url("../../assets/bg-curvy-mobile.svg");
+    background-size: 100% 200px;
+    background-repeat: no-repeat;
+    background-position: 0 180px;
+  }
+
+  .container-texts {
+    width: 320px;
+    margin-top: 2rem;
+  }
+}

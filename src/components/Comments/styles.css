@@ -1,0 +1,65 @@
+@import url("../../global.css");
+
+.card-container {
+  font-family: "Raleway";
+  margin: 2rem auto 2rem auto;
+}
+
+.card {
+  width: 400px;
+  border-radius: 4px;
+  background: var(--dark-blue-testimonials);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.comment {
+  margin: 1.5rem;
+  font-size: 14px;
+  font-family: "Open sans";
+}
+
+.profile-img img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profile-container {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin-left: 3rem;
+}
+
+.profile-name {
+  padding: 2rem;
+}
+
+.profile-name h2 {
+  font-size: 16px;
+}
+
+.profile-name p {
+  font-size: 12px;
+}
+
+@media (max-width: 1240px) {
+  .card-container {
+    margin: 2rem 0 0 0;
+  }
+
+  .card-container > img {
+    width: 25px;
+    margin-left: 2rem;
+  }
+
+  .card {
+    margin: auto;
+    width: 340px;
+  }
+}
